@@ -2,13 +2,13 @@ import { test, expect,Page } from "@playwright/test";
 import path from "path";
 
 test("File Upload", async ({ page }) => {
-  /*
+  
   await page.goto('https://demoqa.com/upload-download');
   const filePath = path.join(__dirname, "../Files/AnilKumarV.docx");
 
   await page.locator("#uploadFile").setInputFiles(filePath);
 
-  */
+  
 }   );
 
 test("File Upload two withouth html tag input and type attribute file", async ({ page }) => {
@@ -21,3 +21,4 @@ test("File Upload two withouth html tag input and type attribute file", async ({
  const filechooserEvent = await filechooserPromise;
   await filechooserEvent.setFiles([filePath,filePath2]);
 }   );
+//I am Ankit
